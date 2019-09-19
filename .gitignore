@@ -1,0 +1,16 @@
+/.lastBuildTime
+/node_modules
+/config/local.js
+/dist
+/logs
+/server/ps.pid
+/common/logs
+/common/config/local.js
+*.log
+/.idea
+/.git
+/nohup.out
+/common/bower_components
+/common/.git
+/.DS_Store
+.DS_Store

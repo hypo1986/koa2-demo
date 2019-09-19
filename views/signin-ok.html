@@ -1,0 +1,22 @@
+{% extends "base.html" %} 
+{% block main %}
+
+<div>
+  <h1>Sign in success!</h1>
+  <div class="alert alert-danger"> 
+    <strong>This is post login name: {{ title }}</strong>
+  </div>
+  <ul>
+    {% for f in data %}
+      {% if f.age < 10 %}
+        <li>postValue: 00000</li>
+      {% elif f.age == 10 %}
+        <li>postValue: 10</li>
+      {% else %}
+        <li>postValue: {{ f.name }}</li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>
+
+{% endblock %}
